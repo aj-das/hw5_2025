@@ -257,7 +257,9 @@ far to the right as possible. Use flex properties, NOT position properties.
     /* step 21 Without using list-style-type add the thumbs up entity as shown in the cards. 
     This is a challenge problem. You should not give or receive help when completing it.
     **For some people the thumbs up is not printing as yellow. That is fine. */
-    .pricing .card ul li:nth-child(2)::after {
+    .pricing 
+    .card ul 
+    li:nth-child(2)::after {
         content: " 👍";
     }
 }
